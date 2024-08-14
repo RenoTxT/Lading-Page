@@ -387,3 +387,32 @@ body{
     box-sizing: border-box;
 }
 
+.contactMessage{
+    padding-bottom: 2vh;
+}
+
+.contactMessage textarea {
+    flex: 2;
+    padding: 2vh;
+    border: 0.1vh solid #ddd;
+    border-radius: 3vh;
+    box-sizing: border-box;
+}
+
+.contact button{
+    background: linear-gradient(135deg, #ff6e40, #ff4081);
+    color: white;
+    border: none;
+    border-radius: 2vh;
+    padding: 1.5vh 1.5vw;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact button:hover{
+    background: linear-gradient(135deg, #ff4080c5, #ff6d40c9);
+    transform: translateY(-2px);
+}
