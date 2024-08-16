@@ -1,0 +1,97 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #020202;
+    height: 80px;
+    margin: 1vh;
+    border-radius: 16px;
+    padding: 0.5rem;
+    box-shadow: 0 2px 3px rgba(255, 103, 103, 0.2);
+}
+
+.navbar-brand{
+    padding-left: 5vw;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    height: 50;
+    transition: 0.3s color;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, nav-link.active{
+    color: #ffffff;
+}
+
+
+@media (min-width: 991px){
+    .nav-link::before{
+        content:"";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #c43400;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.img-animation {
+    border-radius: 5vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; /* Ensure to transition box-shadow if needed */
+    transform: scale(0.9); /* Set initial scale smaller */
+}
+
+.img-animation:hover {
+    transform: scale(1); /* Scale up the image on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Optional: Increase shadow for depth effect */
+}
+
+
+.portofolio{
+    height: 75vh;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 5vh;
+    background: linear-gradient(65deg, #000000, #333333);
+}
+
+.portofolio h1{
+    font-size: 2rem;
+}
+
+.portofolio p{
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 3vh;
+}
+
+.portofolio h3{
+    font-size: 1.5rem;
+    padding-top: 1vh;
+}
