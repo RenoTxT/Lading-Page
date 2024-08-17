@@ -6,7 +6,7 @@ Welcome to my Landing Page! This site serves as a portfolio showcasing my work, 
 
 ## Features
 - **Responsive Design**: Built using [Bootstrap v5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/), ensuring a seamless experience across all devices.
-- - **Easy to Develop**: The website is straightforward to maintain and expand, with clean, well-structured code that follows best practices.
+- **Easy to Develop**: The website is straightforward to maintain and expand, with clean, well-structured code that follows best practices.
 
 ## Social Media
 - **GitHub**: [RenoTxT](https://www.github.com/RenoTxT/)
