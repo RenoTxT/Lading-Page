@@ -1,9 +1,12 @@
 # Landing Page
 Welcome to my Landing Page! This site serves as a portfolio showcasing my work, a hub to connect with collaborators, and a space to engage with a broader audience interested in my content.
 
+![image](https://github.com/user-attachments/assets/a72e8f81-1c59-479a-8803-0acec4ff3681)
+![image](https://github.com/user-attachments/assets/dc35d1e6-0633-49c9-aa89-6f9bcddb6dc3)
+
 ## Features
 - **Responsive Design**: Built using [Bootstrap v5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/), ensuring a seamless experience across all devices.
-- - **Easy to Develop**: The website is straightforward to maintain and expand, with clean, well-structured code that follows best practices.
+- **Easy to Develop**: The website is straightforward to maintain and expand, with clean, well-structured code that follows best practices.
 
 ## Social Media
 - **GitHub**: [RenoTxT](https://www.github.com/RenoTxT/)
