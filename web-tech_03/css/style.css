@@ -35,8 +35,9 @@ body{
     position: relative;
 }
 
+
 .nav-link:hover, nav-link.active{
-    color: #ffffff;
+    color: #fb4242;
 }
 
 
@@ -49,7 +50,7 @@ body{
         transform: translateX(-50%);
         width: 0;
         height: 2px;
-        background-color: #c43400;
+        background-color: #f44747;
         visibility: hidden;
         transition: 0.3s ease-in-out;
     }
@@ -82,16 +83,58 @@ body{
 }
 
 .portofolio h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-top: 15vh;
+    text-align: center;
 }
 
 .portofolio p{
-    font-size: 1rem;
-    text-align: left;
-    padding-top: 3vh;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.portofolio h3{
+.portofolio h1 {
     font-size: 1.5rem;
+    padding-top: 15vh;
+    text-align: center;
+    opacity: 1;
+    transform: scale(0.9);
+    transition: transform 0.3s ease, padding-top 0.3s ease, text-align 0.3s ease;
+}
+
+.portofolio p, .portofolio h4 {
+    text-align: left;
+    opacity: 0; /* Initially hidden */
+    transform: scale(0.9); /* Slightly smaller scale */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+    width: 100%;
+    height: 1vh;
+}
+
+.portofolio h4{
+    font-size: 1.1rem;
+}
+
+.portofolio p{
+    margin-top: 5vh;
+}
+
+.portofolio p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: width 0.3s;
+    overflow: hidden;
+}
+
+.portofolio:hover h1 {
+    transform: scale(1); /* Slightly larger on hover */
     padding-top: 1vh;
+    text-align: left;
+}
+
+.portofolio:hover p, .portofolio:hover h4 {
+    opacity: 1; /* Fully visible on hover */
+    transform: scale(1); /* Scale back to original size */
+    height: 0;
 }

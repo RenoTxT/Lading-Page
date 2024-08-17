@@ -36,32 +36,55 @@
 .rnz-3 {
     background: linear-gradient(135deg, #ff6e40, #ff4081);
     border-radius: 2rem;
-    width: 15vw; /* Set initial width to 25% of the viewport width */
-    height: 40vh; /* Set fixed height */
+    width: 15vw; 
+    height: 40vh; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: width 0.3s, background 0.3s, transform 0.3s;
-    overflow: hidden; /* Prevent overflow */
+    overflow: hidden;
 }
 
 .rnz-animation-test {
-    width: 50%; /* Set initial width to 25% of the viewport width */
+    width: 50%;
     transition: width 0.3s, background 0.3s, transform 0.3s;
-    overflow: hidden; /* Prevent overflow */
+    overflow: hidden;
+    align-items: center;
 }
 
-/* Adjust hover state */
+@media (max-width: 991px) {
+    .rnz-animation-test {
+        width: 100%;
+        transition: width 0.3s, background 0.3s, transform 0.3s;
+        overflow: hidden;
+    }
+}
+
 .rnz-animation-test:hover{
-    transform: translateY(-5vh); /* Move up slightly on hover */
-    width: 100%; /* Set a fixed width on hover */
+    transform: translateY(-5vh) scale(1);
+    width: 100%;
+    height: fit-content;
+    padding-top: 5vh;
 }
 
-/* Adjust hover state */
+.rnz-animation-test:hover p{
+    text-align: justify;
+    font-size: 0.7rem;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+}
+
+.rnz-team-test{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 .rnz-1:hover,
 .rnz-2:hover,
 .rnz-3:hover {
-    background: linear-gradient(135deg, #ff6e40, #ff4081); /* Optional: same background on hover */
-    transform: translateY(-5vh); /* Move up slightly on hover */
-    width: 50vh; /* Set a fixed width on hover */
+    background: linear-gradient(135deg, #ff6e40, #ff4081);
+    transform: translateY(-5vh);
+    width: 50vh;
 }
 
 .rnz-col-animation{
@@ -124,4 +147,10 @@
 .rnz-porto{
     margin: 0;
     width: 100%;
+}
+
+.rnz-chart{
+    width:100%;
+    max-width:700px;
+    color: white;
 }

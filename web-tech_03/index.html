@@ -1,3 +1,19 @@
+<!--
+THIS WEBSITE WAS CREATED BY RENO MARDIPUTRA
+
+Social Media
+YouTube: https://www.youtube.com/@k4nzuki/
+Instagram: https://www.instagram.com/paulreno_m/
+Email: reno.mardiputra@gmail.com
+
+Donation
+BRI: 0512 0102 3520 507
+GoPay: 089649191026
+
+LICENSE UNDER PORTBYTE TECHNOLOGIES
+https://www.portbyte.id/
+-->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,11 +32,11 @@
         <link rel="stylesheet" href="css/rnzstyle.css">
     </head>
 
-    <body>
+    <body id="home">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg sticky fixed-top bg-black" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand me-auto" href="#"><img src="./img/logo.png" alt="logo" height="70vh" class="a-inline-block align-text-center">Kana Group</a>
+                <a class="navbar-brand me-auto" href="#"><img src="./img/logo.png" alt="logo" height="70vh" class="a-inline-block align-text-center rnz-text-logo">Kana Group</a>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -28,16 +44,16 @@
                     <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                        <a class="nav-link mx-lg-2 " href="#" id="btnA" >Home</a>
+                        <a class="nav-link mx-lg-2" href="#home" id="btnA" onclick="clickButton('btnA')">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link mx-lg-2" href="#portofolio" id="btnB">Portofolio</a>
+                        <a class="nav-link mx-lg-2" href="#portofolio" id="btnB" onclick="clickButton('btnB')">Portofolio</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link mx-lg-2" href="#about" id="btnC">About</a>
+                        <a class="nav-link mx-lg-2" href="#about" id="btnC" onclick="clickButton('btnC')">About</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link mx-lg-2" href="#contact" id="btnD">Contact</a>
+                        <a class="nav-link mx-lg-2" href="#contact" id="btnD" onclick="clickButton('btnD')">Contact</a>
                         </li>
                     </ul>
                     </div>
@@ -96,9 +112,9 @@
         <!-- End Button Portofolio -->
 
         <!-- Team -->
-        <section class="portofolio container-fluid d-flex align-items-center justify-content-center text-light" id="portofolio">
-            <div class="col px-5 d-flex align-items-center justify-content-center ">
-                <div class="row p-3 mt-5 pt-5 rnz-animation-test">
+        <section class="portofolio container-fluid text-light" id="portofolio">
+            <div class="col px-5 rnz-team-test d-flex">
+                <div class="row rnz-animation-test">
                     <div class="col rnz-1 px-4 py-3 mx-3">
                         <h1 class="fw-bold">Paul</h1>
                         <h4>The Creator</h4>
@@ -165,7 +181,7 @@
                                     </p>                       
                                 </div>
                                 <div class="col rnz-about-img">
-                                    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+                                    <canvas id="myChart" class="rnz-chart"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -260,5 +276,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
         <script src="./js/chart.js"></script>
+        <script src="./js/rnzscript.js"></script>
     </body>
 </html>
