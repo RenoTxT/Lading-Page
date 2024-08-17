@@ -4,8 +4,6 @@ Welcome to my personal website! This site serves as a portfolio showcasing my wo
 
 ## Features
 - **Responsive Design**: Built using [Bootstrap v5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/), ensuring a seamless experience across all devices.
-- **Social Media Integration**: Easily connect with me on various platforms.
-- **Donation Support**: If you like my work and want to support me, feel free to donate.
 
 ## Social Media
 - **GitHub**: [RenoTxT](https://www.github.com/RenoTxT/)
