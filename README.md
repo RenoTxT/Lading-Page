@@ -1,6 +1,9 @@
 # Landing Page
 Welcome to my Landing Page! This site serves as a portfolio showcasing my work, a hub to connect with collaborators, and a space to engage with a broader audience interested in my content.
 
+![image](https://github.com/user-attachments/assets/f5ea6d06-5898-4566-a4a9-afa3cba625b9)
+
+
 ## Features
 - **Responsive Design**: Built using [Bootstrap v5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/), ensuring a seamless experience across all devices.
 - - **Easy to Develop**: The website is straightforward to maintain and expand, with clean, well-structured code that follows best practices.
