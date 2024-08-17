@@ -123,19 +123,19 @@ https://www.portbyte.id/
                 <div class="col px-5 rnz-team-test d-flex hidden">
                     <div class="row rnz-animation-test">
                         <div class="col rnz-1 px-4 py-3 mx-3">
-                            <h1 class="fw-bold">Paul</h1>
-                            <h4>The Creator</h4>
-                            <p>The Creator is the visionary behind a project, responsible for developing the initial concept and guiding its execution. They handle storytelling, character development, and collaboration with various departments to bring their vision to life.</p>
+                            <h1 class="fw-bold" id="reno"></h1>
+                            <h4 id="reno-job"></h4>
+                            <p id="reno-content"></p>
                         </div>
                         <div class="col rnz-2 px-4 py-3 mx-3">
-                            <h1 class="fw-bold">Patrisius</h1>
-                            <h4>The Cameraman</h4>
-                            <p>The Cameraman, or Cinematographer, captures the visual essence of the project. They work with the director to select camera equipment, lighting, and framing to create the desired atmosphere. Their expertise in shot composition enhances the storytelling and emotional impact of the film.</p>
+                            <h1 class="fw-bold" id="patrick"></h1>
+                            <h4 id="patrick-job"></h4>
+                            <p id="patrick-content"></p>
                         </div>
                         <div class="col rnz-3 px-4 py-3 mx-3">
-                            <h1 class="fw-bold">Salvatore</h1>
-                            <h4>The Director</h4>
-                            <p>The Director oversees the creative aspects of a film or video, working closely with actors to shape performances and collaborating with the cinematographer to establish visual style. They ensure that all elements align with their artistic vision and lead the entire production team.</p>
+                            <h1 class="fw-bold" id="salva"></h1>
+                            <h4 id="salva-job"></h4>
+                            <p id="salva-content"></p>
                         </div>
                     </div>
                     <div class="row rnz-space-about" id="about">
@@ -185,9 +185,8 @@ https://www.portbyte.id/
                                 </div>
                                 <div class="row justify-content-center align-items-center p-5">
                                     <div class="col rnz-about-head">
-                                        <h1 class="fs-3 mb-3 fw-bold">Kana Group</h1>
-                                        <p class="fs-6">We are dedicated to transforming your digital projects with exceptional quality and efficiency. Our expert team collaborates seamlessly to deliver top-tier results quickly, focusing on quality over quantity. Whether you're engaging in a complex multi-editor project or seeking innovative content solutions, our commitment to excellence ensures that every aspect of your project is executed with precision. Partner with Kana Group today to experience unparalleled creative collaboration and take your digital presence to new heights.
-                                        </p>                       
+                                        <h1 class="fs-3 mb-3 fw-bold" id="heading-about-kgroup"></h1>
+                                        <p class="fs-6" id="about-kgroup"></p>                       
                                     </div>
                                     <div class="col rnz-about-img">
                                         <canvas id="myChart" class="rnz-chart"></canvas>
@@ -289,6 +288,7 @@ https://www.portbyte.id/
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
         <script src="./js/lisence.js"></script>
         <script src="./js/chart.js"></script>
+        <script src="./js/content.js"></script>
         <script defer src="./js/rnzscript.js"></script>
         <script defer src="./js/Scrollanimation.js"></script>
     </body>
