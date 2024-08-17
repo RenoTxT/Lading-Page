@@ -4,15 +4,15 @@ Welcome to my personal website! This site serves as a portfolio showcasing my wo
 
 ## Features
 - **Responsive Design**: Built using [Bootstrap v5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/), ensuring a seamless experience across all devices.
+- - **Easy to Develop**: The website is straightforward to maintain and expand, with clean, well-structured code that follows best practices.
 
 ## Social Media
 - **GitHub**: [RenoTxT](https://www.github.com/RenoTxT/)
-- **YouTube**: [k4nzuki](https://www.youtube.com/@k4nzuki/)
 - **Instagram**: [paulreno_m](https://www.instagram.com/paulreno_m/)
 - **Email**: [reno.mardiputra@gmail.com](mailto:reno.mardiputra@gmail.com)
 
 ## Donation
-- **BRI**: 0512 0102 3520 507
+- **BRI**: 0512 0102 3520 507 [Indonesia Bank]
 
 Your support is greatly appreciated and helps me continue to develop and share content.
 
