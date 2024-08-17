@@ -1,6 +1,5 @@
-# Personal Website by Reno Mardiputra
-
-Welcome to my personal website! This site serves as a portfolio showcasing my work, a hub to connect with collaborators, and a space to engage with a broader audience interested in my content.
+# Landing Page
+Welcome to my Landing Page! This site serves as a portfolio showcasing my work, a hub to connect with collaborators, and a space to engage with a broader audience interested in my content.
 
 ## Features
 - **Responsive Design**: Built using [Bootstrap v5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/), ensuring a seamless experience across all devices.
