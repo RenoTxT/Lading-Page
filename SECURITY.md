@@ -1,16 +1,5 @@
 # Security Policy
 
-## Supported Versions
-
-| Browser               | Supported in Bootstrap 5.3.3 |
-| --------------------- | ---------------------------- |
-| Google Chrome         | ✅                           |
-| Mozilla Firefox       | ✅                           |
-| Microsoft Edge        | ✅                           |
-| Safari                | ✅                           |
-| Opera                 | ✅                           |
-| Internet Explorer     | ❌                           |
-
 ## Reporting a Vulnerability
 
 If you discover a security vulnerability or bug in my project, please report it by emailing me at [reno.mardiputra@gmail.com](mailto:reno.mardiputra@gmail.com). I ask that you do not disclose the vulnerability publicly until I have had a chance to address it.
@@ -30,6 +19,15 @@ If you discover a security vulnerability or bug in my project, please report it 
 ## Supported Versions
 
 Currently, there is no specific security support in place for this project. The website is built using HTML, CSS, and JavaScript for a landing page, and Bootstrap v5.3.3 for styling. Please note that security updates for the Bootstrap framework itself are handled by its maintainers.
+
+| Browser               | Supported in Bootstrap 5.3.3 |
+| --------------------- | ---------------------------- |
+| Google Chrome         | ✅                           |
+| Mozilla Firefox       | ✅                           |
+| Microsoft Edge        | ✅                           |
+| Safari                | ✅                           |
+| Opera                 | ✅                           |
+| Internet Explorer     | ❌                           |
 
 ## Security Patch Policy
 
