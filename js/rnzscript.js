@@ -4,6 +4,5 @@ function clickButton(activeButtonId) {
     document.getElementById("btnC").style.color = "white";
     document.getElementById("btnD").style.color = "white";
 
-
     document.getElementById(activeButtonId).style.color = "red";
 }
