@@ -29,15 +29,16 @@ https://www.portbyte.id/
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/buttonstyles.css">
         <link rel="stylesheet" href="css/rnzstyle.css">
         <link rel="stylesheet" href="css/Scrollanimation.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body id="home">
+    <body>
+        <section id="home"></section>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg sticky fixed-top bg-black" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand me-auto" href="#"><img src="./img/logo.png" alt="logo" height="70vh" class="a-inline-block align-text-center rnz-text-logo">Kana Group</a>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -45,18 +46,18 @@ https://www.portbyte.id/
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <ul class="navbar justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                        <a class="nav-link mx-lg-2" style="color: red;" href="#home" id="btnA" onclick="clickButton('btnA')">Home</a>
+                            <a class="nav-link mx-lg-2 active" href="#home" id="btnA" >Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link mx-lg-2" href="#portofolio" id="btnB" onclick="clickButton('btnB')">Portofolio</a>
+                            <a class="nav-link mx-lg-2" href="#portofolio" id="btnB" >Portofolio</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link mx-lg-2" href="#about" id="btnC" onclick="clickButton('btnC')">About</a>
+                            <a class="nav-link mx-lg-2" href="#about" id="btnC">About</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link mx-lg-2" href="#contact" id="btnD" onclick="clickButton('btnD')">Contact</a>
+                            <a class="nav-link mx-lg-2" href="#contact" id="btnD" >Contact</a>
                         </li>
                     </ul>
                     </div>
@@ -69,188 +70,196 @@ https://www.portbyte.id/
         <!-- End Navbar -->
 
         <!-- Header -->
-        <header class="container-fluid bg-image rnz-image-bg-head bg-opacity-10 p-0">
-            <div class="bg-dark bg-opacity-50">
-                <div class="container-fluid d-flex justify-content-center align-items-center rnz-header ">
-                    <div class="col">
-                        <div class="row">
-                            <h1 class="text-light fw-bold fs-1 text-center">Kana Group</h1>
-                        </div>
-                        <div class="row">  
-                            <p class="text-light fst-italic fs-3 text-center">Be Creator And Conquer The World  </p>
+        <section id="headerPage">
+            <header class="container-fluid bg-image rnz-image-bg-head bg-opacity-10 p-0">
+                <div class="bg-dark bg-opacity-50">
+                    <div class="container-fluid d-flex justify-content-center align-items-center rnz-header ">
+                        <div class="col">
+                            <div class="row">
+                                <h1 class="text-light fw-bold fs-1 text-center">Kana Group</h1>
+                            </div>
+                            <div class="row">  
+                                <p class="text-light fst-italic fs-3 text-center">Be Creator And Conquer The World  </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Scroll Animation Space -->
-            <div class="bg-dark bg-opacity-50 py-4" id="portofolio"><br></div>
-        </header>
+                <!-- Scroll Animation Space -->
+                <div class="bg-dark bg-opacity-50 py-4" id="portofolio"><br></div>
+            </header>
+        </section>
         <!-- End Header -->
 
-        <!-- Button Portofolio -->
-        <div class="container-fluid py-5 hidden" style="width: 20vw;">
-            <div class="col">
-                <div class="row">
-                    <a href="#portofolio"  class="button">
-                        <div class="button__content justify-content-center">
-                           <span class="button__text text-center">Portofolio</span>
-                           <i class="ri-download-cloud-fill button__icon"></i>
-            
-                           <div class="button__reflection-1"></div>
-                           <div class="button__reflection-2"></div>
-                        </div>
-            
-                        <img src="./img/star.png" alt="" class="button__star-1">
-                        <img src="./img/star.png" alt="" class="button__star-2">
-                        <img src="./img/circle.png" alt="" class="button__circle-1">
-                        <img src="./img/circle.png" alt="" class="button__circle-2">
-                        <img src="./img/diamond.png" alt="" class="button__diamond">
-                        <img src="./img/triangle.png" alt="" class="button__triangle">
-                        
-                        <div class="button__shadow"></div>
-                     </a>
-                </div>
-            </div>
-        </div>
-        <!-- End Button Portofolio -->
-
-        <!-- Team -->
-        <section class="portofolio container-fluid text-light " id="portofolio">
-            <div class="col px-5 rnz-team-test d-flex hidden">
-                <div class="row rnz-animation-test">
-                    <div class="col rnz-1 px-4 py-3 mx-3">
-                        <h1 class="fw-bold">Paul</h1>
-                        <h4>The Creator</h4>
-                        <p>The Creator is the visionary behind a project, responsible for developing the initial concept and guiding its execution. They handle storytelling, character development, and collaboration with various departments to bring their vision to life.</p>
-                    </div>
-                    <div class="col rnz-2 px-4 py-3 mx-3">
-                        <h1 class="fw-bold">Patrisius</h1>
-                        <h4>The Cameraman</h4>
-                        <p>The Cameraman, or Cinematographer, captures the visual essence of the project. They work with the director to select camera equipment, lighting, and framing to create the desired atmosphere. Their expertise in shot composition enhances the storytelling and emotional impact of the film.</p>
-                    </div>
-                    <div class="col rnz-3 px-4 py-3 mx-3">
-                        <h1 class="fw-bold">Salvatore</h1>
-                        <h4>The Director</h4>
-                        <p>The Director oversees the creative aspects of a film or video, working closely with actors to shape performances and collaborating with the cinematographer to establish visual style. They ensure that all elements align with their artistic vision and lead the entire production team.</p>
-                    </div>
-                </div>
-                <div class="row rnz-space-about" id="about">
-                </div>
-            </div>
-        </section>
-        <!-- End Team -->
-
-        <!-- Button About -->
-        <div class="container-fluid py-5 hidden" style="width: 20vw;">
-            <div class="col">
-                <div class="row">
-                    <a href="#about" class="button">
-                        <div class="button__content1 justify-content-center">
-                           <span class="button__text text-center">About</span>
-                           <i class="ri-download-cloud-fill button__icon"></i>
-            
-                           <div class="button__reflection-1"></div>
-                           <div class="button__reflection-2"></div>
-                        </div>
-            
-                        <img src="./img/star.png" alt="" class="button__star-1">
-                        <img src="./img/star.png" alt="" class="button__star-2">
-                        <img src="./img/circle.png" alt="" class="button__circle-1">
-                        <img src="./img/circle.png" alt="" class="button__circle-2">
-                        <img src="./img/diamond.png" alt="" class="button__diamond">
-                        <img src="./img/triangle.png" alt="" class="button__triangle">
-                        
-                        <div class="button__shadow1"></div>
-                     </a>
-                </div>
-            </div>
-        </div>
-        <!-- End Button About -->
-
-        <!-- About -->
-        <section class="container-fluid bg-image rnz-image-bg-about bg-opacity-10 p-0" id="#about">
-            <div class="bg-dark bg-opacity-75 text-light">
-                <div class="row">
-                    <!-- Section About -->
-                    <div class="container-fluid py-3  hidden">
-                        <div class="col pt-5">
-                            <div class="row justify-content-center align-items-center">
-                                <h3 class="text-center fw-bold fs-1">Elevate Your Creative Vision with Us!</h3>                   
-                            </div>
-                            <div class="row justify-content-center align-items-center p-5">
-                                <div class="col rnz-about-head">
-                                    <h1 class="fs-3 mb-3 fw-bold">Kana Group</h1>
-                                    <p class="fs-6">We are dedicated to transforming your digital projects with exceptional quality and efficiency. Our expert team collaborates seamlessly to deliver top-tier results quickly, focusing on quality over quantity. Whether you're engaging in a complex multi-editor project or seeking innovative content solutions, our commitment to excellence ensures that every aspect of your project is executed with precision. Partner with Kana Group today to experience unparalleled creative collaboration and take your digital presence to new heights.
-                                    </p>                       
-                                </div>
-                                <div class="col rnz-about-img">
-                                    <canvas id="myChart" class="rnz-chart"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Section About -->
-                </div>
+        <section id="portofolioPage">
+            <!-- Button Portofolio -->
+            <div class="container-fluid py-5 hidden" style="width: 20vw;">
+                <div class="col">
+                    <div class="row">
+                        <a href="#portofolio"  class="button">
+                            <div class="button__content justify-content-center">
+                            <span class="button__text text-center">Portofolio</span>
+                            <i class="ri-download-cloud-fill button__icon"></i>
                 
-                <div class="py-4" id="contact"><br></div>
-            </div>
-        </section>
-        <!-- End About -->
-        
-         <!-- Contact Button -->
-        <div class="container-fluid py-5 hidden" style="width: 20vw;">
-            <div class="col">
-                <div class="row">
-                    <a href="#contact" class="button">
-                        <div class="button__content2 justify-content-center">
-                           <span class="button__text text-center">Contact</span>
-                           <i class="ri-download-cloud-fill button__icon"></i>
-            
-                           <div class="button__reflection-1"></div>
-                           <div class="button__reflection-2"></div>
-                        </div>
-            
-                        <img src="./img/star.png" alt="" class="button__star-1">
-                        <img src="./img/star.png" alt="" class="button__star-2">
-                        <img src="./img/circle.png" alt="" class="button__circle-1">
-                        <img src="./img/circle.png" alt="" class="button__circle-2">
-                        <img src="./img/diamond.png" alt="" class="button__diamond">
-                        <img src="./img/triangle.png" alt="" class="button__triangle">
-                        
-                        <div class="button__shadow2"></div>
-                     </a>
+                            <div class="button__reflection-1"></div>
+                            <div class="button__reflection-2"></div>
+                            </div>
+                
+                            <img src="./img/star.png" alt="" class="button__star-1">
+                            <img src="./img/star.png" alt="" class="button__star-2">
+                            <img src="./img/circle.png" alt="" class="button__circle-1">
+                            <img src="./img/circle.png" alt="" class="button__circle-2">
+                            <img src="./img/diamond.png" alt="" class="button__diamond">
+                            <img src="./img/triangle.png" alt="" class="button__triangle">
+                            
+                            <div class="button__shadow"></div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- End Contact Button -->
+            <!-- End Button Portofolio -->
 
-        <!-- Section Contact -->
-        <section class="container-fluid bg-image rnz-image-bg-contact bg-opacity-10 p-0">
-            <div class="bg-dark bg-opacity-75">
-                <div class="container-fluid py-5 px-5 rnz-contact-width  hidden">
-                    <div class="row">
-                        <h1 class="text-center text-light fs-1 pb-5 fw-bold">Ready to Start a Project?</h1>
-                        <div class="col">
-                            <input class="form-control" type="text" placeholder="name" id="name" aria-label="default input example">
+            <!-- Team -->
+            <section class="portofolio container-fluid text-light " id="portofolio">
+                <div class="col px-5 rnz-team-test d-flex hidden">
+                    <div class="row rnz-animation-test">
+                        <div class="col rnz-1 px-4 py-3 mx-3">
+                            <h1 class="fw-bold">Paul</h1>
+                            <h4>The Creator</h4>
+                            <p>The Creator is the visionary behind a project, responsible for developing the initial concept and guiding its execution. They handle storytelling, character development, and collaboration with various departments to bring their vision to life.</p>
                         </div>
-                        <div class="col"> 
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <div class="col rnz-2 px-4 py-3 mx-3">
+                            <h1 class="fw-bold">Patrisius</h1>
+                            <h4>The Cameraman</h4>
+                            <p>The Cameraman, or Cinematographer, captures the visual essence of the project. They work with the director to select camera equipment, lighting, and framing to create the desired atmosphere. Their expertise in shot composition enhances the storytelling and emotional impact of the film.</p>
+                        </div>
+                        <div class="col rnz-3 px-4 py-3 mx-3">
+                            <h1 class="fw-bold">Salvatore</h1>
+                            <h4>The Director</h4>
+                            <p>The Director oversees the creative aspects of a film or video, working closely with actors to shape performances and collaborating with the cinematographer to establish visual style. They ensure that all elements align with their artistic vision and lead the entire production team.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <textarea class="form-control mt-3" id="message" rows="5" placeholder="message"></textarea>
-                        </div>
+                    <div class="row rnz-space-about" id="about">
                     </div>
-                    <div class="row pt-3">
-                        <div class="col">
-                            <button type="button" class="btn btn-primary">Send</button>
-                        </div>
+                </div>
+            </section>
+            <!-- End Team -->
+        </section>
+
+        <section id="aboutPage">
+            <!-- Button About -->
+            <div class="container-fluid py-5 hidden" style="width: 20vw;">
+                <div class="col">
+                    <div class="row">
+                        <a href="#about" class="button">
+                            <div class="button__content1 justify-content-center">
+                            <span class="button__text text-center">About</span>
+                            <i class="ri-download-cloud-fill button__icon"></i>
+                
+                            <div class="button__reflection-1"></div>
+                            <div class="button__reflection-2"></div>
+                            </div>
+                
+                            <img src="./img/star.png" alt="" class="button__star-1">
+                            <img src="./img/star.png" alt="" class="button__star-2">
+                            <img src="./img/circle.png" alt="" class="button__circle-1">
+                            <img src="./img/circle.png" alt="" class="button__circle-2">
+                            <img src="./img/diamond.png" alt="" class="button__diamond">
+                            <img src="./img/triangle.png" alt="" class="button__triangle">
+                            
+                            <div class="button__shadow1"></div>
+                        </a>
                     </div>
                 </div>
             </div>
+            <!-- End Button About -->
+
+            <!-- About -->
+            <section class="container-fluid bg-image rnz-image-bg-about bg-opacity-10 p-0" id="#about">
+                <div class="bg-dark bg-opacity-75 text-light">
+                    <div class="row">
+                        <!-- Section About -->
+                        <div class="container-fluid py-3  hidden">
+                            <div class="col pt-5">
+                                <div class="row justify-content-center align-items-center">
+                                    <h3 class="text-center fw-bold fs-1">Elevate Your Creative Vision with Us!</h3>                   
+                                </div>
+                                <div class="row justify-content-center align-items-center p-5">
+                                    <div class="col rnz-about-head">
+                                        <h1 class="fs-3 mb-3 fw-bold">Kana Group</h1>
+                                        <p class="fs-6">We are dedicated to transforming your digital projects with exceptional quality and efficiency. Our expert team collaborates seamlessly to deliver top-tier results quickly, focusing on quality over quantity. Whether you're engaging in a complex multi-editor project or seeking innovative content solutions, our commitment to excellence ensures that every aspect of your project is executed with precision. Partner with Kana Group today to experience unparalleled creative collaboration and take your digital presence to new heights.
+                                        </p>                       
+                                    </div>
+                                    <div class="col rnz-about-img">
+                                        <canvas id="myChart" class="rnz-chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Section About -->
+                    </div>
+                    
+                    <div class="py-4" id="contact"><br></div>
+                </div>
+            </section>
+            <!-- End About -->
         </section>
-        <!-- End Contact -->
+        
+        <section id="contactPage">
+            <!-- Contact Button -->
+            <div class="container-fluid py-5 hidden" style="width: 20vw;">
+                <div class="col">
+                    <div class="row">
+                        <a href="#contact" class="button">
+                            <div class="button__content2 justify-content-center">
+                            <span class="button__text text-center">Contact</span>
+                            <i class="ri-download-cloud-fill button__icon"></i>
+                
+                            <div class="button__reflection-1"></div>
+                            <div class="button__reflection-2"></div>
+                            </div>
+                
+                            <img src="./img/star.png" alt="" class="button__star-1">
+                            <img src="./img/star.png" alt="" class="button__star-2">
+                            <img src="./img/circle.png" alt="" class="button__circle-1">
+                            <img src="./img/circle.png" alt="" class="button__circle-2">
+                            <img src="./img/diamond.png" alt="" class="button__diamond">
+                            <img src="./img/triangle.png" alt="" class="button__triangle">
+                            
+                            <div class="button__shadow2"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Contact Button -->
+
+            <!-- Section Contact -->
+            <section class="container-fluid bg-image rnz-image-bg-contact bg-opacity-10 p-0">
+                <div class="bg-dark bg-opacity-75">
+                    <div class="container-fluid py-5 px-5 rnz-contact-width  hidden">
+                        <div class="row">
+                            <h1 class="text-center text-light fs-1 pb-5 fw-bold">Ready to Start a Project?</h1>
+                            <div class="col">
+                                <input class="form-control" type="text" placeholder="name" id="name" aria-label="default input example">
+                            </div>
+                            <div class="col"> 
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <textarea class="form-control mt-3" id="message" rows="5" placeholder="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-3">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Contact -->
+        </section>
 
         <!-- Footer -->
         <footer class="rnz-footer container-fluid pt-3">
@@ -259,7 +268,7 @@ https://www.portbyte.id/
                     <a class="navbar-brand me-auto text-light fs-3" href="https://www.youtube.com/@k4nzuki"><img src="./img/logo.png" alt="logo" height="120" class="a-inline-block align-text-center">Kana Group</a>
                 </div>
                 <div class="rnz-email col">
-                    <a href="https://www.instagram.com/paulreno_m" rel="lisence"><h5 class="text-end text-light">reno.mardiputra@gmail.com</h5></a>
+                    <a href="https://www.instagram.com/paulreno_m" rel="lisence"><h5 class="text-end text-light" id="creator"></h5></a>
                 </div>
             </div>
             <div class="row">
@@ -267,18 +276,18 @@ https://www.portbyte.id/
             </div>
             <div class="rnz-license row">
                 <div class="col">
-                    <a href="https://portbyte.id/" rel="lisence"><p>Copyright © 2024 Portbyte Technologies. All right reserved.</p></a>
-                    <p>Kana Group is an organization under Portbyte Technologies</p>
+                    <a href="https://portbyte.id/" rel="lisence"><p id="lisence"></p></a>
+                    <p id="kana-group"></p>
                 </div>
             </div>
         </footer>
         <!-- End Footer -->
 
         <!-- Script Write Here -->
-        <script src="./js/Scrollanimation.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script src="./js/lisence.js"></script>
         <script src="./js/chart.js"></script>
         <script defer src="./js/rnzscript.js"></script>
         <script defer src="./js/Scrollanimation.js"></script>

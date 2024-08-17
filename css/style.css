@@ -14,9 +14,17 @@ body{
 .navbar-brand{
     padding-left: 5vw;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: rgb(238, 238, 238);
     height: 50;
     transition: 0.3s color;
+}
+
+.navbar-brand:hover{
+    color: #ff1313;
+}
+
+.nav-link.active{
+    color: #ff1313;
 }
 
 .navbar-toggler{
@@ -35,9 +43,12 @@ body{
     position: relative;
 }
 
+li{
+    list-style: none;
+}
 
 .nav-link:hover, nav-link.active{
-    color: #fb4242;
+    color: #ff1313 !important;
 }
 
 
