@@ -43,14 +43,30 @@ body{
     position: relative;
 }
 
-li{
-    list-style: none;
-}
-
-.nav-link:hover, nav-link.active{
+.nav-link:hover, .nav-link.active{
     color: #ff1313 !important;
 }
 
+#navbarNavAltMarkup{
+    justify-content: end;
+    background-color: #000000;
+    text-align: center;
+}
+
+.navbar-brand{
+    padding-top: 0;
+}
+
+.navbar-nav .nav-link.active {
+    color: red !important; /* Change the color to red */
+}
+.navbar-nav .nav-link.active:hover {
+    color: red !important; /* Ensure hover state also displays red */
+}
+
+.nav-link.active {
+    color: red !important; /* Example color */
+}
 
 @media (min-width: 991px){
     .nav-link::before{

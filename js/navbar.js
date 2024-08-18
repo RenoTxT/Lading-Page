@@ -1,5 +1,5 @@
 let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('nav div div ul li a');
+let navLinks = document.querySelectorAll('nav div div div a');
 
 window.addEventListener('load', function() {
     

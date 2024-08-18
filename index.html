@@ -30,7 +30,7 @@ https://www.portbyte.id/
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/buttonstyles.css">
-        <link rel="stylesheet" href="css/rnzstyle.css">
+        <link rel="stylesheet" href="css/body.css">
         <link rel="stylesheet" href="css/Scrollanimation.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -38,33 +38,20 @@ https://www.portbyte.id/
     <body>
         <section id="home"></section>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-black fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand me-auto" href="#"><img src="./img/logo.png" alt="logo" height="70vh" class="a-inline-block align-text-center rnz-text-logo">Kana Group</a>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                    <ul class="navbar justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2 active" href="#home" id="btnA" >Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#portofolio" id="btnB" >Portofolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#about" id="btnC">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="#contact" id="btnD" >Contact</a>
-                        </li>
-                    </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#" id="btnA">Home</a>
+                        <a class="nav-link" href="#portofolio" id="btnB">Portofolio</a>
+                        <a class="nav-link" href="#about" id="btnC">About</a>
+                        <a class="nav-link" href="#contact" id="btnD">Contact</a>
                     </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
             </div>
         </nav>
         <!-- End Navbar -->
@@ -289,7 +276,7 @@ https://www.portbyte.id/
         <script src="./js/lisence.js"></script>
         <script src="./js/chart.js"></script>
         <script src="./js/content.js"></script>
-        <script defer src="./js/rnzscript.js"></script>
+        <script defer src="./js/navbar.js"></script>
         <script defer src="./js/Scrollanimation.js"></script>
     </body>
 </html>
